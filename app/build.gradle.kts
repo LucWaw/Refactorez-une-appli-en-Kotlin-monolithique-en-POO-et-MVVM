@@ -55,6 +55,13 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
 
+
+    testImplementation("org.mockito:mockito-core:5.14.1")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
+
+    // Pour utiliser les Flows dans les tests
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.1")
+
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
